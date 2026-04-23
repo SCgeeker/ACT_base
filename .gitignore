@@ -5,6 +5,8 @@
 
 # Generated output (not demo content)
 +/kb_output/
+antigravity_implementation_plan.md
+/ACT/2️⃣Thought/
 
 # PDFs (copyright)
 +/pdf/
@@ -12,3 +14,4 @@
 # System files
 .DS_Store
 Thumbs.db
+/.claude/
