@@ -1,0 +1,44 @@
+/* Obsidian 核心 Slides (Reveal.js) 排版設定 */
+
+.reveal .slides section {
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.reveal h1 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+}
+
+.reveal h3 {
+  font-size: 1.1em;
+}
+
+.reveal table {
+  font-size: 0.75em;
+  width: 100%;
+}
+
+.reveal code {
+  font-size: 0.8em;
+}
+
+.reveal pre {
+  font-size: 0.7em;
+  width: 100%;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1.2em;
+}
+
+.reveal blockquote {
+  font-size: 0.9em;
+  width: 90%;
+}

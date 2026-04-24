@@ -1,0 +1,203 @@
+{
+  "name": "Advanced Neural Network Architectures and Scaling",
+  "children": [
+    {
+      "name": "Optimization & Model Complexity",
+      "children": [
+        {
+          "name": "Minimum Description Length",
+          "children": [
+            {
+              "name": "Minimizing Weight Information"
+            },
+            {
+              "name": "Noisy Weights and Gaussian Noise"
+            },
+            {
+              "name": "Complexity vs. Data-Fit Trade-off"
+            }
+          ]
+        },
+        {
+          "name": "Deep Residual Learning (ResNet)",
+          "children": [
+            {
+              "name": "Addressing Degradation Problem"
+            },
+            {
+              "name": "Shortcut Connections"
+            },
+            {
+              "name": "Identity Mappings"
+            },
+            {
+              "name": "Bottleneck Architectures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scaling Laws & Performance",
+      "children": [
+        {
+          "name": "Transformer Scaling Laws",
+          "children": [
+            {
+              "name": "Power-law Relationships"
+            },
+            {
+              "name": "Parameters (N) vs. Data (D) vs. Compute (C)"
+            },
+            {
+              "name": "Sample Efficiency of Large Models"
+            }
+          ]
+        },
+        {
+          "name": "Critical Batch Size",
+          "children": [
+            {
+              "name": "Gradient Noise Scale"
+            },
+            {
+              "name": "Time-Compute Efficiency Trade-off"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parallelism & Scalability",
+      "children": [
+        {
+          "name": "GPipe Library",
+          "children": [
+            {
+              "name": "Pipeline Parallelism"
+            },
+            {
+              "name": "Micro-batch Splitting"
+            },
+            {
+              "name": "Re-materialization for Memory"
+            },
+            {
+              "name": "Synchronous Gradient Updates"
+            }
+          ]
+        },
+        {
+          "name": "Model vs. Data Parallelism",
+          "children": [
+            {
+              "name": "Mesh-Tensorflow (SPMD)"
+            },
+            {
+              "name": "PipeDream (Asynchronous)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sequence Modeling (Transformers)",
+      "children": [
+        {
+          "name": "Attention Mechanisms",
+          "children": [
+            {
+              "name": "Self-Attention"
+            },
+            {
+              "name": "Multi-Head Attention"
+            },
+            {
+              "name": "Scaled Dot-Product Attention"
+            }
+          ]
+        },
+        {
+          "name": "Architecture Components",
+          "children": [
+            {
+              "name": "Positional Encoding (Sinusoidal)"
+            },
+            {
+              "name": "Encoder-Decoder Stacks"
+            },
+            {
+              "name": "Layer Normalization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Long Context Challenges",
+      "children": [
+        {
+          "name": "Lost in the Middle",
+          "children": [
+            {
+              "name": "U-Shaped Performance Curve"
+            },
+            {
+              "name": "Primacy and Recency Bias"
+            },
+            {
+              "name": "Middle Context Degradation"
+            }
+          ]
+        },
+        {
+          "name": "Retrieval Performance",
+          "children": [
+            {
+              "name": "Multi-document Question Answering"
+            },
+            {
+              "name": "Key-Value Retrieval Tasks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "children": [
+        {
+          "name": "Computer Vision",
+          "children": [
+            {
+              "name": "Image Classification"
+            },
+            {
+              "name": "Object Detection (Faster R-CNN)"
+            },
+            {
+              "name": "Transfer Learning"
+            }
+          ]
+        },
+        {
+          "name": "Natural Language Processing",
+          "children": [
+            {
+              "name": "Neural Machine Translation"
+            },
+            {
+              "name": "Open-Domain QA (DPR)"
+            },
+            {
+              "name": "Constituency Parsing"
+            }
+          ]
+        },
+        {
+          "name": "Quantum Chemistry (MPNNs)"
+        }
+      ]
+    }
+  ]
+}

@@ -85,3 +85,8 @@ tags:
 ## 🔍 Navigation
 
 Lint: `/annotation-monitor` | Query: `/connection-query`
+
+
+```
+claude --resume 46af56bc-9133-46b2-90eb-2343ea0ec29e
+```
